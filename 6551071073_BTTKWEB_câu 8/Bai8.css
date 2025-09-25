@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.form-table {
+    margin: 20px auto;
+    border: 1px solid #333;
+    border-collapse: collapse;
+    background-color: #e8f5e9;
+    width: 600px;
+}
+
+.form-table th {
+    background-color: white;
+    color: darkgreen;
+    font-size: 22px;
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.form-table td {
+    padding: 8px;
+    border: 1px solid #333;
+}
+
+input[type="text"], select {
+    width: 95%;
+    padding: 5px;
+    border: 1px solid #666;
+}
+
+select[multiple] {
+    height: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+input[type="button"] {
+    padding: 6px 15px;
+    background-color: #eee;
+    border: 1px solid #666;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #bbb;
+}
+
+#ketqua {
+    color: red;
+    font-weight: bold;
+    margin-top: 5px;
+}

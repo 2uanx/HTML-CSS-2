@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="bai7.css">
+    <script>
+        function hienThiTen() {
+            let user = document.getElementById("username").value;
+            document.getElementById("result").innerHTML = "<a href='#'>" + user + "</a>";
+        }
+    </script>
+</head>
+<body>
+    <div class="login-box">
+        <h2>Đăng nhập</h2>
+        <table>
+            <tr>
+                <td>Mã người dùng:</td>
+                <td><input type="text" id="username"></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu:</td>
+                <td><input type="password" id="password"></td>
+            </tr>
+        </table>
+        <input type="button" value="Đồng ý" onclick="hienThiTen()">
+        <div class="result" id="result"></div>
+    </div>
+</body>
+</html>
