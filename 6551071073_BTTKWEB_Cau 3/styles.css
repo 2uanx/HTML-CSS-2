@@ -1,0 +1,15 @@
+h1{
+    font-size: 25px;
+    color: red; text-align: center;
+}
+li{
+    font-size: 15px;
+    color: blue;
+}
+.title{
+    color: red;
+}
+h2{
+    font-size: 15px;
+    color: blue;
+}

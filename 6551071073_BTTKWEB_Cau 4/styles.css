@@ -1,0 +1,26 @@
+h2{
+    font-size: 25px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+h3{
+    font-size: 15px;
+    color: blue;
+}
+a{
+    color: aqua;
+}
+a:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+ol, ul{
+    font-size: 16px;
+    line-height: 1.6;
+}
+p.contact{
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+}
